@@ -11,7 +11,7 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'Avi',
+  name: 'Avishek',
   imageBackground: false,
   openInNewTab: true,
   twelveHourFormat: true,
@@ -23,7 +23,7 @@ const CONFIG = {
   greetingNight: 'Go to Sleep!',
 
   // Layout
-  bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+  bentoLayout: 'lists', // 'bento', 'lists', 'buttons'
 
   // Weather
   weatherKey: '2651664b5034d224d8e01a92cabfb898', // Write here your API Key
@@ -36,10 +36,10 @@ const CONFIG = {
   defaultLongitude: '88.453',
 
   // Autochange
-  autoChangeTheme: true,
+  autoChangeTheme: false,
 
   // Autochabge by OS
-  changeThemeByOS: true,
+  changeThemeByOS: false,
 
   // Autochange by hour options (24hrs format, string must be in: hh:mm)
   changeThemeByHour: false,
@@ -92,39 +92,39 @@ const CONFIG = {
   secondButtonsContainer: [
     {
       id: '1',
-      name: 'Music',
-      icon: 'headphones',
-      link: 'https://open.spotify.com',
+      name: 'Physics Wallah',
+      icon: 'graduation-cap',
+      link: 'https://www.physicswallah.live/tabs/tabs/batch-tab',
     },
     {
       id: '2',
-      name: 'twitter',
-      icon: 'twitter',
-      link: 'https://twitter.com/',
+      name: 'WhatsApp',
+      icon: 'message-circle',
+      link: 'https://web.whatsapp.com/',
     },
     {
       id: '3',
-      name: 'bot',
-      icon: 'bot',
-      link: 'https://discord.com/app',
+      name: 'Telegram',
+      icon: 'send',
+      link: 'https://webk.telegram.org/',
     },
     {
       id: '4',
-      name: 'Amazon',
-      icon: 'shopping-bag',
-      link: 'https://amazon.com/',
+      name: 'Office',
+      icon: 'files',
+      link: 'https://www.office.com/',
     },
     {
       id: '5',
-      name: 'Hashnode',
-      icon: 'pen-tool',
-      link: 'https://hashnode.com/',
+      name: 'Router',
+      icon: 'wifi',
+      link: 'http://192.168.0.1/',
     },
     {
       id: '6',
-      name: 'Figma',
-      icon: 'figma',
-      link: 'https://figma.com/',
+      name: 'Speedtest',
+      icon: 'activity',
+      link: 'https://www.speedtest.net/',
     },
   ],
 };
