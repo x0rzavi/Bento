@@ -12,7 +12,7 @@ const CONFIG = {
 
   // General
   name: 'Avishek',
-  imageBackground: false,
+  imageBackground: true,
   openInNewTab: true,
   twelveHourFormat: true,
 
@@ -23,7 +23,7 @@ const CONFIG = {
   greetingNight: 'Go to Sleep!',
 
   // Layout
-  bentoLayout: 'lists', // 'bento', 'lists', 'buttons'
+  bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
 
   // Weather
   weatherKey: '2651664b5034d224d8e01a92cabfb898', // Write here your API Key
