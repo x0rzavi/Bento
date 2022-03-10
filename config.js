@@ -50,7 +50,7 @@ const CONFIG = {
   // ├┴┐│ │ │  │ │ ││││└─┐
   // └─┘└─┘ ┴  ┴ └─┘┘└┘└─┘
 
-  firstButtonsContainer: [
+  secondButtonsContainer: [
     {
       id: '1',
       name: 'Google',
@@ -89,7 +89,7 @@ const CONFIG = {
     },
   ],
 
-  secondButtonsContainer: [
+  firstButtonsContainer: [
     {
       id: '1',
       name: 'Physics Wallah',
