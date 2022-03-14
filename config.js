@@ -12,7 +12,7 @@ const CONFIG = {
 
   // General
   name: 'Avi',
-  imageBackground: true,
+  imageBackground: false,
   openInNewTab: false,
   twelveHourFormat: true,
 
