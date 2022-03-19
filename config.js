@@ -6,9 +6,9 @@
 // └─┘└─┘┘└┘└  ┴└─┘└─┘┴└─┴ ┴ ┴ ┴└─┘┘└┘
 
 const CONFIG = {
-  // ┌┐ ┌─┐┌─┐┬┌─┐┌─┐
-  // ├┴┐├─┤└─┐││  └─┐
-  // └─┘┴ ┴└─┘┴└─┘└─┘
+	// ┌┐ ┌─┐┌─┐┬┌─┐┌─┐
+	// ├┴┐├─┤└─┐││  └─┐
+	// └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
   name: 'Avi',
@@ -16,11 +16,11 @@ const CONFIG = {
   openInNewTab: false,
   twelveHourFormat: true,
 
-  // Greetings
-  greetingMorning: 'Good morning!',
-  greetingAfternoon: 'Good afternoon,',
-  greetingEvening: 'Good evening,',
-  greetingNight: 'Go to Sleep!',
+	// Greetings
+	greetingMorning: 'Good morning!',
+	greetingAfternoon: 'Good afternoon,',
+	greetingEvening: 'Good evening,',
+	greetingNight: 'Go to Sleep!',
 
   // Layout
   bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
@@ -41,14 +41,14 @@ const CONFIG = {
   // Autochabge by OS
   changeThemeByOS: false,
 
-  // Autochange by hour options (24hrs format, string must be in: hh:mm)
-  changeThemeByHour: false,
-  hourDarkThemeActive: '18:30',
-  hourDarkThemeInactive: '07:00',
+	// Autochange by hour options (24hrs format, string must be in: hh:mm)
+	changeThemeByHour: false,
+	hourDarkThemeActive: '18:30',
+	hourDarkThemeInactive: '07:00',
 
-  // ┌┐ ┬ ┬┌┬┐┌┬┐┌─┐┌┐┌┌─┐
-  // ├┴┐│ │ │  │ │ ││││└─┐
-  // └─┘└─┘ ┴  ┴ └─┘┘└┘└─┘
+	// ┌┐ ┬ ┬┌┬┐┌┬┐┌─┐┌┐┌┌─┐
+	// ├┴┐│ │ │  │ │ ││││└─┐
+	// └─┘└─┘ ┴  ┴ └─┘┘└┘└─┘
 
   secondButtonsContainer: [
     {
