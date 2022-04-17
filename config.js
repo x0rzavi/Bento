@@ -73,7 +73,7 @@ const CONFIG = {
       id: '4',
       name: 'Reddit',
       icon: 'glasses',
-      link: 'https://reddit.com',
+      link: 'https://new.reddit.com',
     },
     {
       id: '5',
@@ -94,7 +94,7 @@ const CONFIG = {
       id: '1',
       name: 'Physics Wallah',
       icon: 'graduation-cap',
-      link: 'https://www.physicswallah.live/tabs/tabs/batch-tab',
+      link: 'https://study.physicswallah.live/tabs/tabs/batch-tab',
     },
     {
       id: '2',
@@ -124,7 +124,7 @@ const CONFIG = {
       id: '6',
       name: 'Speedtest',
       icon: 'activity',
-      link: 'https://www.speedtest.net/',
+      link: 'https://speed.cloudflare.com/',
     },
   ],
 };
