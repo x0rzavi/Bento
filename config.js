@@ -12,7 +12,7 @@ const CONFIG = {
 
   // General
   name: 'Avi',
-  imageBackground: false,
+  imageBackground: true,
   openInNewTab: false,
   twelveHourFormat: true,
 
@@ -23,7 +23,7 @@ const CONFIG = {
 	greetingNight: 'Go to Sleep!',
 
   // Layout
-  bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
+  bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
   // Weather
   weatherKey: '2651664b5034d224d8e01a92cabfb898', // Write here your API Key
@@ -49,6 +49,45 @@ const CONFIG = {
 	// ┌┐ ┬ ┬┌┬┐┌┬┐┌─┐┌┐┌┌─┐
 	// ├┴┐│ │ │  │ │ ││││└─┐
 	// └─┘└─┘ ┴  ┴ └─┘┘└┘└─┘
+
+  firstButtonsContainer: [
+    {
+      id: '1',
+      name: 'Google',
+      icon: 'search',
+      link: 'https://www.google.co.in/',
+    },
+    {
+      id: '2',
+      name: 'Mail',
+      icon: 'mail',
+      link: 'https://mail.google.com/mail/u/x0rzavi@gmail.com',
+    },
+    {
+      id: '3',
+      name: 'Keep',
+      icon: 'layout-list',
+      link: 'https://keep.google.com/u/coc.avishek.sen@gmail.com',
+    },
+    {
+      id: '4',
+      name: 'MAKAUT',
+      icon: 'graduation-cap',
+      link: 'https://makaut1.ucanapply.com/smartexam/public/',
+    },
+    {
+      id: '5',
+      name: 'Router',
+      icon: 'wifi',
+      link: 'http://192.168.0.1/',
+    },
+    {
+      id: '6',
+      name: 'Speedtest',
+      icon: 'activity',
+      link: 'https://speed.cloudflare.com/',
+    }, 
+  ],
 
   secondButtonsContainer: [
     {
@@ -89,42 +128,104 @@ const CONFIG = {
     },
   ],
 
-  firstButtonsContainer: [
-    {
-      id: '1',
-      name: 'Physics Wallah',
-      icon: 'graduation-cap',
-      link: 'https://study.physicswallah.live/tabs/tabs/batch-tab',
-    },
-    {
-      id: '2',
-      name: 'WhatsApp',
-      icon: 'message-circle',
-      link: 'https://web.whatsapp.com/',
-    },
-    {
-      id: '3',
-      name: 'Telegram',
-      icon: 'send',
-      link: 'https://webk.telegram.org/',
-    },
-    {
-      id: '4',
-      name: 'Office',
-      icon: 'files',
-      link: 'https://www.office.com/',
-    },
-    {
-      id: '5',
-      name: 'Router',
-      icon: 'wifi',
-      link: 'http://192.168.0.1/',
-    },
-    {
-      id: '6',
-      name: 'Speedtest',
-      icon: 'activity',
-      link: 'https://speed.cloudflare.com/',
-    },
-  ],
+  // ┬  ┬┌─┐┌┬┐┌─┐
+	// │  │└─┐ │ └─┐
+	// ┴─┘┴└─┘ ┴ └─┘
+
+	// First Links Container
+	firstlistsContainer: [
+		{
+			icon: 'coffee',
+			id: '1',
+			links: [
+				{
+					name: 'NSEC Mail',
+					link: 'https://mail.google.com/mail/u/avisheksen.it2022@nsec.ac.in',
+				},
+				{
+					name: 'Drive',
+					link: 'https://drive.google.com/drive/u/x0rzavi@gmail.com/my-drive',
+				},
+				{
+					name: 'Toffee Share',
+					link: 'https://toffeeshare.com/',
+				},
+				{
+					name: 'ChatGPT',
+					link: 'https://chat.openai.com/chat',
+				},
+			],
+		},
+		{
+			icon: 'message-square',
+			id: '2',
+			links: [
+				{
+					name: 'Reddit',
+					link: 'https://www.reddit.com/',
+				},
+        {
+					name: 'Youtube',
+					link: 'https://www.youtube.com/',
+				},
+        {
+					name: 'Github',
+					link: 'https://github.com/',
+				},
+        {
+					name: 'Linkedin',
+					link: 'https://www.linkedin.com',
+				},
+			],
+		},
+	],
+
+	// Second Links Container
+	secondListsContainer: [
+		{
+			icon: 'binary',
+			id: '1',
+			links: [
+				{
+					name: 'Spotify',
+					link: 'https://www.spotify.com',
+				},
+				{
+					name: 'Reddit',
+					link: 'https://www.reddit.com',
+				},
+				{
+					name: 'Hashnode',
+					link: 'https://www.hashnode.com',
+				},
+				{
+					name: 'Pocket',
+					link: 'https://www.pocket.com',
+				},
+			],
+		},
+		{
+			icon: 'github',
+			id: '2',
+			links: [
+				{
+					name: 'Front',
+					link: 'https://www.reddit.com/r/Frontend/',
+				},
+				{
+					name: 'Rust',
+					link: 'https://www.reddit.com/r/rust/',
+				},
+				{
+					name: 'Go',
+					link: 'https://www.reddit.com/r/golang/',
+				},
+				{
+					name: 'Repos',
+					link: 'https://github.com/migueravila',
+				},
+			],
+		},
+	],
+
 };
