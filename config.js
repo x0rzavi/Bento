@@ -147,8 +147,8 @@ const CONFIG = {
 					link: 'https://drive.google.com/drive/u/x0rzavi@gmail.com/my-drive',
 				},
 				{
-					name: 'Toffee Share',
-					link: 'https://toffeeshare.com/',
+					name: 'Blaze',
+					link: 'https://blaze.vercel.app/',
 				},
 				{
 					name: 'ChatGPT',
