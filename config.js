@@ -53,9 +53,9 @@ const CONFIG = {
   firstButtonsContainer: [
     {
       id: '1',
-      name: 'Google',
-      icon: 'search',
-      link: 'https://www.google.co.in/',
+      name: 'Classroom',
+      icon: 'book-open-check',
+      link: 'https://classroom.google.com/u/avisheksen.it2022@nsec.ac.in',
     },
     {
       id: '2',
@@ -66,7 +66,7 @@ const CONFIG = {
     {
       id: '3',
       name: 'Keep',
-      icon: 'sticky-note',
+      icon: 'list-checks',
       link: 'https://keep.google.com/u/coc.avishek.sen@gmail.com',
     },
 	{
