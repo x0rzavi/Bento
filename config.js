@@ -72,7 +72,7 @@ const CONFIG = {
 	{
       id: '4',
       name: 'Calendar',
-      icon: 'calendar',
+      icon: 'calendar-days',
       link: 'https://calendar.google.com/calendar/u/coc.avishek.sen@gmail.com/r/month',
     }, 
     {
