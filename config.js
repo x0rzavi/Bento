@@ -66,27 +66,27 @@ const CONFIG = {
     {
       id: '3',
       name: 'Keep',
-      icon: 'layout-list',
+      icon: 'sticky-note',
       link: 'https://keep.google.com/u/coc.avishek.sen@gmail.com',
     },
     {
       id: '4',
-      name: 'MAKAUT',
-      icon: 'graduation-cap',
-      link: 'https://makaut1.ucanapply.com/smartexam/public/',
-    },
-    {
-      id: '5',
       name: 'Router',
       icon: 'wifi',
       link: 'http://192.168.0.1/',
     },
-    {
-      id: '6',
-      name: 'Speedtest',
-      icon: 'activity',
-      link: 'https://speed.cloudflare.com/',
+	{
+      id: '5',
+      name: 'Calendar',
+      icon: 'calendar',
+      link: 'https://calendar.google.com/calendar/u/coc.avishek.sen@gmail.com/r/month',
     }, 
+	{
+      id: '6',
+      name: 'MAKAUT',
+      icon: 'graduation-cap',
+      link: 'https://makaut1.ucanapply.com/smartexam/public/',
+    },
   ],
 
   secondButtonsContainer: [
