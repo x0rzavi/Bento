@@ -69,18 +69,18 @@ const CONFIG = {
       icon: 'sticky-note',
       link: 'https://keep.google.com/u/coc.avishek.sen@gmail.com',
     },
-    {
-      id: '4',
-      name: 'Router',
-      icon: 'wifi',
-      link: 'http://192.168.0.1/',
-    },
 	{
-      id: '5',
+      id: '4',
       name: 'Calendar',
       icon: 'calendar',
       link: 'https://calendar.google.com/calendar/u/coc.avishek.sen@gmail.com/r/month',
     }, 
+    {
+      id: '5',
+      name: 'Router',
+      icon: 'wifi',
+      link: 'http://192.168.0.1/',
+    },
 	{
       id: '6',
       name: 'MAKAUT',
