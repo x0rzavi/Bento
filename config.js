@@ -55,7 +55,7 @@ const CONFIG = {
       id: '1',
       name: 'Classroom',
       icon: 'book-open-check',
-      link: 'https://classroom.google.com/u/avisheksen.it2022@nsec.ac.in',
+      link: 'https://classroom.google.com/u/avisheksen.cse2022@nsec.ac.in',
     },
     {
       id: '2',
@@ -140,7 +140,7 @@ const CONFIG = {
 			links: [
 				{
 					name: 'NSEC Mail',
-					link: 'https://mail.google.com/mail/u/avisheksen.it2022@nsec.ac.in',
+					link: 'https://mail.google.com/mail/u/avisheksen.cse2022@nsec.ac.in',
 				},
 				{
 					name: 'Drive',
